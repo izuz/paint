@@ -136,11 +136,6 @@ public class VentanaPaint extends javax.swing.JFrame {
                 jButton1MousePressed(evt);
             }
         });
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
 
         jButton2.setText("Cancelar");
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -175,12 +170,6 @@ public class VentanaPaint extends javax.swing.JFrame {
                     .addComponent(jButton2))
                 .addContainerGap(100, Short.MAX_VALUE))
         );
-
-        jFileChooser1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jFileChooser1ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout jDialog2Layout = new javax.swing.GroupLayout(jDialog2.getContentPane());
         jDialog2.getContentPane().setLayout(jDialog2Layout);
@@ -504,10 +493,6 @@ public class VentanaPaint extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jPanel1MouseReleased
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code h
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void jLabel1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MousePressed
         jDialog1.setVisible(true);
         
@@ -572,10 +557,6 @@ public class VentanaPaint extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_jMenuItem1MousePressed
-
-    private void jFileChooser1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jFileChooser1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jFileChooser1ActionPerformed
 
     private void jMenu1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jMenu1StateChanged
         JMenu menu = (JMenu) evt.getSource();
